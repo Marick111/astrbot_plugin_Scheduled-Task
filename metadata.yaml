@@ -6,6 +6,7 @@ author: Marick
 description: 定时任务
 homepage: https://github.com/Marick111/astrbot_plugin_Scheduled-Task
 repository: https://github.com/Marick111/astrbot_plugin_Scheduled-Task
+repo: https://github.com/Marick111/astrbot_plugin_Scheduled-Task
 license: AGPL-3.0
 
 # 依赖项
