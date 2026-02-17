@@ -1,0 +1,48 @@
+# 插件元数据
+name: reminder
+display_name: 定时任务提醒
+version: 1.0.0
+author: AstrBot Team
+description: 智能的定时任务提醒插件，能够在对话中自动识别时间相关内容并设置提醒，无需特定指令
+homepage: https://github.com/astrbot/plugins
+repository: https://github.com/astrbot/plugins
+license: AGPL-3.0
+
+# 依赖项
+dependencies:
+  python: ">=3.8"
+  pytz: ">=2023.3"
+
+# 插件分类
+categories:
+  - 实用工具
+  - 提醒
+
+# 插件标签
+tags:
+  - reminder
+  - task
+  - schedule
+  - time
+  - 提醒
+  - 任务
+  - 日程
+
+# 插件配置项
+config:
+  enabled:
+    type: boolean
+    default: true
+    description: 是否启用插件
+  timezone:
+    type: string
+    default: "Asia/Shanghai"
+    description: 时区设置
+  reminder_file:
+    type: string
+    default: "reminders.json"
+    description: 提醒任务存储文件
+  check_interval:
+    type: integer
+    default: 60
+    description: 检查提醒的时间间隔（秒）
