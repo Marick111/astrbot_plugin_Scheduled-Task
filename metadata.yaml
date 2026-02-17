@@ -1,11 +1,11 @@
 # 插件元数据
-name: astrobot_plugin_Scheduled-Task
+name: astrbot_plugin_Scheduled-Task
 display_name: 定时任务提醒
 version: 1.0.0
 author: Marick
-description: 智能的定时任务提醒插件，能够在对话中自动识别时间相关内容并设置提醒，无需特定指令
-homepage: https://github.com/Marick111/astrobot_plugin_Scheduled-Task
-repository: https://github.com/Marick111/astrobot_plugin_Scheduled-Task
+description: 定时任务
+homepage: https://github.com/Marick111/astrbot_plugin_Scheduled-Task
+repository: https://github.com/Marick111/astrbot_plugin_Scheduled-Task
 license: AGPL-3.0
 
 # 依赖项
